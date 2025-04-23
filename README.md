@@ -136,4 +136,4 @@ npm test
 
 Para suporte técnico, entre em contato com:
 - Email: suporte@ethernajoias.com
-- WhatsApp: (XX) XXXXX-XXXX
+- WhatsApp: (43) 33511041
