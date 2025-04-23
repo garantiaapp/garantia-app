@@ -1,0 +1,40 @@
+{
+  "name": "etherna-joias-app",
+  "version": "1.0.0",
+  "description": "Aplicativo de gestão de garantia para Etherna Joias",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "jest --watchAll --verbose"
+  },
+  "author": "Etherna Joias",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/frontend/"
+    ]
+  }
+}

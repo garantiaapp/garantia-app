@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--dark-gold);
+  color: var(--white);
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
